@@ -39,16 +39,16 @@ export const Services = () => {
             </motion.div>
             <motion.div className="titleContainer" variants={variants}>
             <div className="title">
-                    <motion.img whileHover={{opacity: 0.9, transition: { duration: 0.2, ease: "easeOut" },scale: 0.98,}} src="/people.webp" alt="" />
+                    <motion.img whileHover={{opacity: 0.8, transition: { duration: 0.2, ease: "easeOut" },scale: 0.98,}} src="/people.webp" alt="" />
                     <motion.h1>
-                        <b>Unique</b> Ideas
+                        <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
                     </motion.h1>
                 </div>
                 <div className="title">
                     <h1>
-                        <b>For Your</b> Business.
+                        <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
                     </h1>
-                    <motion.button whileHover={{opacity: 0.9, transition: { duration: 0.2, ease: "easeOut" },scale: 0.98,}}>WHAT WE DO?</motion.button>
+                    <motion.button whileHover={{opacity: 0.8, transition: { duration: 0.2, ease: "easeOut" },scale: 0.98,}}>WHAT WE DO?</motion.button>
                 </div>
             </motion.div>
             <motion.div className="listContainer" variants={variants}>
