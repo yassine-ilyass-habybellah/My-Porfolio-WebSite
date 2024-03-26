@@ -30,9 +30,25 @@ const items = [
 ];
 
 const Single = ({item}) => {
+
+    const ref = useRef()
+
+    const {scrollYProgress} = useScroll({
+        target: ref,
+        offset:["end end", "start start"],
+    });
+
     return (
-        <section>
-            {item.title}
+        <section ref={ref}>
+            <div className="container">
+                <img src={item.img} alt="" />
+                <div className="textContainer">
+                    <h2>{item.title}</h2>
+                    <p>{item.desc}</p>
+                    <button>See Demo</button>
+                    <button>Github Repo</button>
+                </div>
+            </div>
         </section>
     )
 }
