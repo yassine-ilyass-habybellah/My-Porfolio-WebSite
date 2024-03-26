@@ -27,9 +27,10 @@ const itemVariants = {
 
 export const Links = () => {
     const items = [
-        "Homepage",
+        "HomePage",
         "Services",
         "Portfolio",
+        "Contact",
         "About",
     ]
 
