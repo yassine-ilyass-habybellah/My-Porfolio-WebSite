@@ -1,16 +1,21 @@
 import "./app.scss"
+import { Hero } from "./components/Hero/Hero";
 import { NavBar } from "./components/NavBar/NavBar";
+import { Parallax } from "./components/Parallax/Parallax";
 
 const App = () => {
   return <div>
-    <section>
+    <section id="HomePage">
       <NavBar />
-    </section>
-    <section>Home</section>
-    <section>Home</section>
-    <section>Home</section>
-    <section>Home</section>
-    <section>Home</section>
+      <Hero />
+    </section>  
+    <section id="Services"><Parallax type="services"/></section>
+    <section>Services</section>
+    <section id="Portfolio"><Parallax type="portfolio"/></section>
+    <section>Portfolio1</section>
+    <section>Portfolio2</section>
+    <section>Portfolio3</section>
+    <section id="Contact">Contact</section>
   </div>;
 };
 
