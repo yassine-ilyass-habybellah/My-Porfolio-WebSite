@@ -55,7 +55,7 @@ export const Hero = () => {
                 </motion.div>
             </div>
             <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
-                PHP Python Laravel ReactJS VueJS PHP Python JavaScript
+                PHP Python Laravel VueJS PHP JavaScript
             </motion.div>
             <div className="imageContainer">
                 <img src="./hero.png" alt="" />
