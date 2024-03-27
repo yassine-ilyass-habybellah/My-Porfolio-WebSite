@@ -44,7 +44,11 @@
                 }
                 h1 {
                     font-size: 96px;
-                    font-weight: 100;
+                    font-weight: lighter;
+
+                    b {
+                        font-weight: bold;
+                    }
                 }
                 button {
                     width: 300px;

@@ -18,7 +18,7 @@ export const SideBar = () => {
         closed: {
             clipPath: "circle(30px at 50px 50px)",
             transition: {
-                delay:0.5,
+                delay:0.4,
                 type:"spring",
                 stiffness:400,
                 damping:40,
@@ -29,7 +29,7 @@ export const SideBar = () => {
     return (
         <motion.div className="sidebar" animate={open ? "open" : "closed"}>
             <motion.div className="bg" variants={variants}>
-                <Links />
+                <Links setOpen={setOpen} />
             </motion.div>
             <Togglebutton setOpen={setOpen} />
         </motion.div>
