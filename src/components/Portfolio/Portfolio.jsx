@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import "./Portfolio.scss"
-import { motion, useScroll, useSpring } from "framer-motion";
+import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 
 const items = [
     {
@@ -35,18 +35,25 @@ const Single = ({item}) => {
 
     const {scrollYProgress} = useScroll({
         target: ref,
-        offset:["end end", "start start"],
     });
 
+    const y = useTransform(scrollYProgress, [0,1], [-500, 500])
+
     return (
-        <section ref={ref}>
+        <section >
             <div className="container">
-                <img src={item.img} alt="" />
-                <div className="textContainer">
-                    <h2>{item.title}</h2>
+                <div className="wrapper">
+                    <div className="imageContainer" ref={ref}>
+                        <img src={item.img} alt="" />
+                    </div>
+                <motion.div className="textContainer" style={{y}}>
+                    <h2 >{item.title}</h2>
                     <p>{item.desc}</p>
-                    <button>See Demo</button>
-                    <button>Github Repo</button>
+                    <div className="buttonContainer">
+                    <motion.button whileHover={{opacity: 0.6, transition: { duration: 0.2, ease: "easeOut" },scale: 0.98, filter: blur(10)}}>See Demo</motion.button>
+                    <motion.button whileHover={{opacity: 0.6, transition: { duration: 0.2, ease: "easeOut" },scale: 0.98, filter: blur(10)}}>Github Repo</motion.button>
+                    </div>
+                </motion.div>
                 </div>
             </div>
         </section>
