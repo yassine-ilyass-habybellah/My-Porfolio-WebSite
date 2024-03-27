@@ -57,7 +57,7 @@ export const Contact = () => {
         whileInView="animate"
         >
         <motion.div className="textContainer" variants={variants}>
-            <motion.h1 variants={variants}>Let’s work together</motion.h1>
+            <motion.h1 variants={variants}>Let Us work together</motion.h1>
             <motion.div className="item" variants={variants}>
             <h2>Mail</h2>
             <span>hello@react.dev</span>
@@ -106,8 +106,7 @@ export const Contact = () => {
             //   onSubmit={sendEmail}
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ delay: 4, duration: 1 }}
-            >
+            transition={{ delay: 4, duration: 1 }}>
             <input type="text" required placeholder="Name" name="name"/>
             <input type="email" required placeholder="Email" name="email"/>
             <textarea rows={8} placeholder="Message" name="message"/>
