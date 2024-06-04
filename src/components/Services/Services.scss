@@ -6,6 +6,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    @include mobile {
+        opacity: 1 !important; 
+        transform: translateX(0px) translateY(0px) translateZ(0px) !important;
+    }
 
     .textContainer {
         flex: 1;
