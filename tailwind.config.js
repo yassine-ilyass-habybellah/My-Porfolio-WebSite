@@ -7,5 +7,27 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      const newUtilities = {
+        '.snap-y': {
+          scrollSnapType: 'y mandatory',
+        },
+        '.snap-start': {
+          scrollSnapAlign: 'start',
+        },
+        '.snap-end': {
+          scrollSnapAlign: 'end',
+        },
+        '.snap-center': {
+          scrollSnapAlign: 'center',
+        },
+        '.snap-align-none': {
+          scrollSnapAlign: 'none',
+        },
+      };
+
+      addUtilities(newUtilities, ['responsive']);
+    },
+  ],
 }
