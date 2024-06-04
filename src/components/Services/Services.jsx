@@ -32,21 +32,21 @@ export const Services = () => {
         <motion.div className="services" variants={variants} initial="initial" whileInView="animate" ref={ref} animate={isInView && "animate"}>
             <motion.div className="textContainer" variants={variants}>
                 <p>
-                    I Focus on Helping Your Brand Grow<br />
+                    I Focus on Helping Your Brand Grow<br/>
                     and Move Forward
                 </p>
-                <hr />
+                <hr/>
             </motion.div>
             <motion.div className="titleContainer" variants={variants}>
             <div className="title">
                     <motion.img whileHover={{opacity: 0.8, transition: { duration: 0.2, ease: "easeOut" },scale: 0.98,}} src="/people.webp" alt="" />
                     <motion.h1>
-                        <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
+                        <motion.b whileHover={{color:"orange"}}>Unique</motion.b>Ideas
                     </motion.h1>
                 </div>
                 <div className="title">
                     <h1>
-                        <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
+                        <motion.b whileHover={{color:"orange"}}>For Your</motion.b>Business.
                     </h1>
                     <motion.button whileHover={{opacity: 0.8, transition: { duration: 0.2, ease: "easeOut" },scale: 0.98,}}>WHAT WE DO?</motion.button>
                 </div>
