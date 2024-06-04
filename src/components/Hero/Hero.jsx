@@ -48,8 +48,8 @@ export const Hero = () => {
                     <motion.h2 variants={textVariants}>OUSSAMA DARRHAL</motion.h2>
                     <motion.h1 variants={textVariants}>Full Stack Web Developer.</motion.h1>
                     <motion.div variants={textVariants} className="buttons">
-                        <motion.button variants={textVariants}>See Latest Work</motion.button>
-                        <motion.button variants={textVariants}>Contact Me</motion.button>
+                        <motion.button variants={textVariants}><a href="#Portfolio">See Latest Work</a></motion.button>
+                        <motion.button variants={textVariants}><a href="#Contact">Contact Me</a></motion.button>
                     </motion.div>
                     <motion.img variants={textVariants} animate="scrollButton" src="./scroll.png" alt="" />
                 </motion.div>
