@@ -1,7 +1,7 @@
 
 
 
-let projects = [
+export const projects = [
     {
         id: 1,
         title: "React Commerce",
@@ -28,4 +28,3 @@ let projects = [
     },
 ];
 
-export default projects;
