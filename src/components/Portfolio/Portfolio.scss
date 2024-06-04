@@ -1,3 +1,5 @@
+@import "../../app.scss";
+
 .Portfolio {
     position: relative;
 
@@ -10,9 +12,11 @@
         color: orange;
         font-size: 36px;
 
-        h1 {
-
+        @include mobile {
+            padding-top: calc(100vh - 50px );
+            font-size: 24px;
         }
+
         .progressBar {
             height: 10px;
             background-color: white;
@@ -35,6 +39,10 @@
             gap: 50px;
             justify-content: center;
             align-items: center;
+
+            @include mobile {
+                flex-direction: column;
+            }
 
             .imageContainer {
                 flex: 1;
