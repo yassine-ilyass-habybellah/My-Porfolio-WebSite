@@ -55,22 +55,22 @@ export const Services = () => {
                 <motion.div className="max-w-[400px] border-white border-2 p-10 rounded-3xl" >
                     <h2 className="text-3xl hover:text-orange-400"  >Branding</h2>
                     <p className="hidden md:block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, aspernatur ratione illo, autem eos tenetur culpa doloribus hic deleniti possimus ullam, magni optio quo voluptate amet neque dolore sequi blanditiis!</p>
-                    <motion.button className="w-full bg-orange-400 py-2 mt-2 rounded-lg hover:bg-orange-600">Go</motion.button>
+                    <motion.button className="w-full bg-orange-400 py-2 mt-2 rounded-lg hover:bg-orange-600"><a href="#Contact">Go</a></motion.button>
                 </motion.div>
                 <motion.div className="max-w-[400px] border-white border-2 p-10 rounded-3xl">
                     <h2 className="text-3xl hover:text-orange-400"  >Branding</h2>
                     <p className="hidden md:block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, aspernatur ratione illo, autem eos tenetur culpa doloribus hic deleniti possimus ullam, magni optio quo voluptate amet neque dolore sequi blanditiis!</p>
-                    <motion.button className="w-full bg-orange-400 py-2 mt-2 rounded-lg hover:bg-orange-600">Go</motion.button>
+                    <motion.button className="w-full bg-orange-400 py-2 mt-2 rounded-lg hover:bg-orange-600"><a href="#Contact">Go</a></motion.button>
                 </motion.div>
                 <motion.div className="max-w-[400px] border-white border-2 p-10 rounded-3xl" >
                     <h2 className="text-3xl hover:text-orange-400"  >Branding</h2>
                     <p className="hidden md:block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, aspernatur ratione illo, autem eos tenetur culpa doloribus hic deleniti possimus ullam, magni optio quo voluptate amet neque dolore sequi blanditiis!</p>
-                    <motion.button className="w-full bg-orange-400 py-2 mt-2 rounded-lg hover:bg-orange-600">Go</motion.button>
+                    <motion.button className="w-full bg-orange-400 py-2 mt-2 rounded-lg hover:bg-orange-600"><a href="#Contact">Go</a></motion.button>
                 </motion.div>
                 <motion.div className="max-w-[400px] border-white border-2 p-10 rounded-3xl" >
                     <h2 className="text-3xl hover:text-orange-400"  >Branding</h2>
                     <p className="hidden md:block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, aspernatur ratione illo, autem eos tenetur culpa doloribus hic deleniti possimus ullam, magni optio quo voluptate amet neque dolore sequi blanditiis!</p>
-                    <motion.button className="w-full bg-orange-400 py-2 mt-2 rounded-lg hover:bg-orange-600">Go</motion.button>
+                    <motion.button className="w-full bg-orange-400 py-2 mt-2 rounded-lg hover:bg-orange-600"><a href="#Contact">Go</a></motion.button>
                 </motion.div>
             </motion.div>
         </motion.div>
