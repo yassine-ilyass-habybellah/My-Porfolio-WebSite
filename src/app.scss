@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 /* Firefox */
 html {
     scrollbar-width: thin;
@@ -13,6 +11,7 @@ html {
 html {
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 * {
     padding: 0;

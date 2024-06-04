@@ -8,7 +8,8 @@ import { Portfolio } from "./components/Portfolio/Portfolio";
 import { Services } from "./components/Services/Services";
 
 const App = () => {
-  return <div>
+  return <div >
+  <div>
     <Cursor />
     <section id="HomePage">
       <NavBar />
@@ -19,6 +20,7 @@ const App = () => {
     <section id="Portfolio"><Parallax type="portfolio"/></section>
     <Portfolio />
     <section id="Contact"><Contact /></section>
+  </div>
   </div>;
 };
 
