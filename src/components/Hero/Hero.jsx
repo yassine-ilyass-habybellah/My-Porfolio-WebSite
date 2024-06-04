@@ -45,7 +45,7 @@ export const Hero = () => {
         <div className="hero">
             <div className="wrapper">
                 <motion.div className="textContainer" variants={textVariants} initial="initial" whileInView="animate">
-                    <motion.h2 variants={textVariants}>OUSSAMA DARRHAL</motion.h2>
+                    <motion.h2 variants={textVariants}>OMAYWA</motion.h2>
                     <motion.h1 variants={textVariants}>Full Stack Web Developer.</motion.h1>
                     <motion.div variants={textVariants} className="buttons">
                     <a href="#Portfolio"><motion.button variants={textVariants}>See Latest Work</motion.button></a>
@@ -55,11 +55,8 @@ export const Hero = () => {
                 </motion.div>
             </div>
             <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
-                PHP Python Laravel VueJS PHP JavaScript
+                PHP Laravel VueJS React JavaScript
             </motion.div>
-            <div className="imageContainer">
-                <img src="./hero.png" alt="" />
-            </div>
         </div>
     )
 }

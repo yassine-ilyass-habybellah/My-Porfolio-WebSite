@@ -18,6 +18,6 @@ export const Cursor = () => {
     }, [])
 
     return (
-        <motion.div className="Cursor" animate={{x:position.x-20, y:position.y-20}}></motion.div>
+        <motion.div className="Cursor" animate={{x:position.x, y:position.y}}></motion.div>
     )
 }
