@@ -19,7 +19,7 @@ const textVariants = {
 }
 
 export const NavBar = () => {
-    return (
+return (
         <div className="navbar">
             {/* SideBar */}
             <SideBar />
