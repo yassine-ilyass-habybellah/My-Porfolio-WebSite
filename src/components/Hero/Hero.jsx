@@ -40,6 +40,10 @@ const sliderVariants = {
     },
 }
 
+const scrollByAmount = () => {
+    window.scrollBy({ top: 200, behavior: 'smooth' }); // Change 200 to the desired scroll amount in pixels
+};
+
 export const Hero = () => {
     return (
         <div className="hero">
@@ -51,12 +55,15 @@ export const Hero = () => {
                         <a href="#Portfolio" class="first-button"><motion.button variants={textVariants}>See Latest Work</motion.button></a>
                         <a href="#Contact" class="second-button"><motion.button variants={textVariants}>Contact Me</motion.button></a>
                     </motion.div>
-                    <motion.img variants={textVariants} animate="scrollButton" src="./scroll.png" alt="" />
+                    <motion.img style={{ cursor: "pointer" }} onClick={scrollByAmount} variants={textVariants} animate="scrollButton" src="./scroll.png" alt="" />
                 </motion.div>
             </div>
             <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
                 PHP Laravel VueJS React JavaScript
             </motion.div>
+            <div className="imageContainer">
+                <img src="/hero.png" alt="" />
+            </div>
         </div>
     )
 }
