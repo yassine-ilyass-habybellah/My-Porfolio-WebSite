@@ -42,19 +42,19 @@ export const Services = () => {
                 <div className="title">
                     <motion.img whileHover={{ opacity: 0.8, transition: { duration: 0.2, ease: "easeOut" }, scale: 0.98, }} src="/people.webp" alt="" />
                     <motion.h1>
-                        <motion.b whileHover={{ color: "orange" }}>Unique</motion.b>Ideas
+                        <motion.b whileInView={{ color: "orange" }}>Unique </motion.b>Ideas
                     </motion.h1>
                 </div>
                 <div className="title">
                     <h1>
-                        <motion.b whileHover={{ color: "orange" }}>For Your</motion.b>Business.
+                        <motion.b whileInView={{ color: "orange" }}>For Your </motion.b>Business.
                     </h1>
                     <motion.button style={{ cursor: "default" }} whileHover={{ opacity: 0.8, transition: { duration: 0.2, ease: "easeOut" }, scale: 0.98, }}>WHAT WE DO?</motion.button>
                 </div>
             </motion.div>
             <motion.div className="flex items-center flex-wrap justify-center gap-20 py-[10px]" variants={variants}>
-                <motion.div className="max-w-[1000px] border-white border-2 p-10 py-7 rounded-3xl" >
-                    <h2 className="text-3xl hover:text-orange-400" >Web Development</h2>
+                <motion.div className="max-w-[1000px] border-white border-2 p-10 py-10 rounded-3xl" >
+                    <h2 className="text-3xl text-orange-400 pb-4" >Web Development</h2>
                     <p className="hidden lg:block">From the age of 4, when I first got my hands on a PC, I’ve been fascinated with technology. This early passion evolved into a deep love for programming by the age of 14. Fast forward to 2023, and I’ve turned this lifelong enthusiasm into a profession, excelling as a full-stack web developer specializing in React and Laravel.<br></br>
                         <br></br>
                         My expertise spans all the necessary languages for these frameworks, enabling me to create seamless and dynamic web solutions. With a global perspective, I bridge cultural gaps and connect effortlessly with clients, thanks to my fluency in English, German, French, and Arabic.<br></br>
